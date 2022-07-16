@@ -27,3 +27,16 @@ docker run -t -I -p 9999:9999 complexity
 
 If everything goes well, you should be able to access the app in the browser at ``` localhost:9999``` 
 
+### From command line
+
+Install requirements 
+
+```shell
+python -m pip install -r requirements.txt
+```
+
+Run the application
+
+```shell
+python app.py
+```
