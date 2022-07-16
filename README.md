@@ -19,3 +19,11 @@
 docker build -t complexity . 
 ```
 
+Run the app.
+
+```shell
+docker run -t -I -p 9999:9999 complexity
+```
+
+If everything goes well, you should be able to access the app in the browser at >localhost:9999
+
