@@ -41,6 +41,8 @@ Run the application
 python app.py
 ```
 
+Access the app in the browser at ``` localhost:9999```
+
 The application accepts csv files in this format:
 | time | aircraft_id | type | lat | lon |
 |------|-------------|------|-----|-----|
