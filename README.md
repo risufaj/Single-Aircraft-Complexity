@@ -46,5 +46,5 @@ The application accepts csv files in this format:
 |------|-------------|------|-----|-----|
 
 
-So you need a log file that has these columns. We have used the application alongside [the BlueSky Simulator]([https://docs.docker.com/get-docker/](https://github.com/risufaj/bluesky)) (links to our fork, with reference to the main repository). However, in principle the application only needs a proper log file.
+So you need a log file that has these columns. We have used the application alongside [the BlueSky Simulator](https://github.com/risufaj/bluesky) (links to our fork, with reference to the main repository). However, in principle the application only needs a proper log file.
 We plan on extending the allowed formats.
