@@ -410,8 +410,8 @@ def graph_from_data(file, min_thresh=5, max_thresh=30):
     min_lon = []
     max_lon = []
 
-    mask =    (df['time'] >= 12500.0) & (df['time'] <= 14300.0)#(df['time'] >= 2200.0) & (df['time'] <= 4000.0)#(df['time'] >= 0.) & (df['time'] <= 4500.)## (df['time'] >= 4500.0) & (df['time'] <= 6700.0)#
-    df = df.loc[mask]
+    #mask =    (df['time'] >= 12500.0) & (df['time'] <= 14300.0)#(df['time'] >= 2200.0) & (df['time'] <= 4000.0)#(df['time'] >= 0.) & (df['time'] <= 4500.)## (df['time'] >= 4500.0) & (df['time'] <= 6700.0)#
+    #df = df.loc[mask]
 
 
     groups = df.groupby('time')
